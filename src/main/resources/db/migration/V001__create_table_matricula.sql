@@ -1,0 +1,8 @@
+CREATE TABLE matricula (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    rm VARCHAR(255) NOT NULL,
+    turma VARCHAR(255) NOT NULL,
+    curso VARCHAR(255) NOT NULL,
+    status VARCHAR(50) NOT NULL
+);
