@@ -1,0 +1,7 @@
+CREATE TABLE reserva (
+    id SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    mesa VARCHAR(255) NOT NULL,
+    data VARCHAR(255) NOT NULL,
+    status VARCHAR(50) NOT NULL
+);
